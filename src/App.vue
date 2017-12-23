@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <product-list-one :products="products"></product-list-one>
-    <product-list-two :products="products"></product-list-two>
+    <product-list-one></product-list-one>
+    <product-list-two></product-list-two>
     <router-view/>
   </div>
 </template>
@@ -17,12 +17,7 @@ export default {
   },
   data() {
     return {
-      products:[
-        {name:"马云",price:200},
-        {name:"马化腾",price:140},
-        {name:"马冬梅",price:20},
-        {name:"马蓉",price:10},
-      ]
+      
     }
   }
 }
